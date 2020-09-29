@@ -8,7 +8,9 @@ module.exports = {
     {
       resolve: "@wkocjan/gatsby-theme-intro",
       options: {
-        theme: "dark-blue",
+        basePath: "/",
+        contentPath: "content/",
+        theme: "warm-red",
         showThemeLogo: false,
       },
     },
