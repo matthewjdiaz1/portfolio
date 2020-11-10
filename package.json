@@ -1,5 +1,5 @@
 {
-  "homepage": "https://matthewjdiaz1.github.io",
+  "homepage": "matthewjdiaz1.github.io/portfolio",
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "author": "Matthew-Jacob-Diaz <matthewjdiaz1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@wkocjan/gatsby-theme-intro": "^1.0.14",

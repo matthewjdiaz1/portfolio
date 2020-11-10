@@ -4,13 +4,14 @@ module.exports = {
     locale: "en",
     title: "Matthew J Diaz",
   },
+  pathPrefix: '/portfolio',
   plugins: [
     {
       resolve: "@wkocjan/gatsby-theme-intro",
       options: {
-        basePath: "/",
-        contentPath: "content/",
-        theme: "warm-red",
+        // basePath: "/",
+        // contentPath: "content/",
+        theme: "bright-red",
         showThemeLogo: false,
       },
     },
